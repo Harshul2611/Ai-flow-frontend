@@ -39,7 +39,7 @@ export default function App() {
     },
   ]);
 
-  const [edges, setEdges, onEdgesChange] = useEdgesState([
+  const [edges, _setEdges, onEdgesChange] = useEdgesState([
     { id: "e1-2", source: "1", target: "2", animated: true },
   ]);
 
