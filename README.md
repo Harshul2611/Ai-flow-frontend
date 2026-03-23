@@ -35,8 +35,6 @@ npm run dev
 # TypeScript check + build
 npm run build
 
-# Preview production build locally
-npm run preview
 ```
 
 **Output**: `dist/` folder for deployment.
@@ -47,7 +45,7 @@ Update API endpoints in code:
 
 ```typescript
 // Replace localhost URLs with production backend
-const API_BASE = import.meta.env.VITE_API_URL || 'https://your-backend.com';
+const API_URL = import.meta.env.VITE_API_URL || 'https://your-backend.com';
 ```
 
 ## 🧪 Testing Workflow
